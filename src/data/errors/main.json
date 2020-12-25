@@ -1,0 +1,30 @@
+{
+    "validation": {
+        "status": 400,
+        "message": "validation error"
+    },
+    "any": {
+        "status": 400,
+        "message": "unexpected error"
+    },
+    "1000": {
+        "status": 400,
+        "message": "user with the email address provided is inexistant in our databases"
+    },
+    "1001": {
+        "status": 400,
+        "message": "the password provided is invalid"
+    },
+    "1002": {
+        "status": 400,
+        "message": "email adress in use"
+    },
+    "2000": {
+        "status": 400,
+        "message": "app credentials are invalid"
+    },
+    "3000": {
+        "status": 400,
+        "message": "token provided is invalid"
+    }
+}
